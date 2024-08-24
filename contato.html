@@ -16,3 +16,35 @@
             <a class="cabecalho__menu_link" href="contato.html">Contato</a>       
         </nav>
     </header>
+    
+    
+    <section class="apresentacao">
+        <div class="apresentacao__conteudo">
+            <h2 class="apresentacao__conteudo__titulo">
+                <span class="apresentacao__conteudo__titulo">Entre em Contato</span>
+            </h2>
+            <p class="apresentacao__conteudo__texto">Preencha o formulário abaixo para entrar em contato conosco.</p>
+
+            <form action="/enviar-contato" method="post">
+                <label class="apresentacao__conteudo__texto" for="nome">Nome:</label>
+                <input class="apresentacao__conteudo__texto" type="text" id="nome" name="nome" required>
+                <br><br>
+
+                <label class="apresentacao__conteudo__texto" for="email">E-mail:</label>
+                <input class="apresentacao__conteudo__texto" type="email" id="email" name="email" required>
+                <br><br>
+
+                <label class="apresentacao__conteudo__texto" for="mensagem">Mensagem:</label>
+                <textarea class="apresentacao__conteudo__texto" id="mensagem" name="mensagem" rows="5" required></textarea>
+                <br><br>
+
+                <input class="apresentacao__links__link" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        © 2024 Sua Empresa. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
